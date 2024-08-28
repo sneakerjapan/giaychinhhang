@@ -1,0 +1,352 @@
+.img-banner {
+  position: relative;
+  text-align-last: center;
+  color: aliceblue;
+}
+.imgbanner {
+  width: 100%;
+}
+#banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section > .container {
+  /*width:1170px;*/
+  margin: auto;
+  display: block;
+  padding: 30px 10px;
+  line-height: 25px;
+}
+
+#nav-bar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  text-transform: uppercase;
+  position: relative;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Sử dụng flex để xếp các mục thành hàng ngang */
+  justify-content: center; /* Căn giữa các mục theo chiều ngang */
+  align-items: center; /* Căn giữa các mục theo chiều dọc */
+  height: 60px; /* Đặt chiều cao cho thanh điều hướng nếu cần */
+}
+nav ul li {
+  margin: 0 15px; /* Khoảng cách giữa các mục */
+}
+nav ul li a {
+  display: block;
+  color: rgb(17, 16, 16);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav ul li {
+  flex: auto; /* Đảm bảo các phần tử chiếm cùng một kích thước */
+  text-align: center; /* Căn giữa nội dung trong mỗi mục */
+  border-right: 1px solid #bbb;
+  height: 1.3cm; /* Đặt đường kẻ bên phải cho các phần tử <li> */
+}
+nav ul li:first-child {
+  border-left: 1px solid #bbb; /* Thêm đường kẻ bên trái cho phần tử đầu tiên */
+}
+nav ul li a:hover {
+  background-color: #111;
+}
+.anhthe {
+  justify-content: center;
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  width: 60%;
+  outline: 0.5px solid#111;
+  margin-top: -60px;
+}
+i {
+  color: rgb(56, 56, 184);
+}
+.large-text {
+  font-size: 15px;
+}
+.small-text {
+  font-size: 7px;
+  color: #948c8c;
+}
+#about {
+  padding-top: 30px;
+}
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  margin: 0 30px;
+}
+#target {
+  background-color: #bebebe;
+}
+#personal-info {
+  background-color: #a7a7a7;
+  padding-left: 1cm;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.info li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.info span {
+  font-weight: bold;
+}
+#job-info .container {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  column-gap: 0px;
+  margin: 0 30px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+  box-sizing: border-box;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid i {
+  font-size: 50px;
+}
+.text1 {
+  display: inline-block;
+  color: #ffffff; /* Màu chữ trắng */
+  background-color: #6666e7; /* Màu nền xanh nước biển */
+  border: 2px solid #6262e7; /* Đường viền xanh nước biển */
+  border-radius: 10px; /* Bo tròn nền */
+  padding: 5px 10px; /* Khoảng cách giữa chữ và đường viền */
+}
+.custom-list li::marker {
+  color: blue;
+}
+.border-1 {
+  padding: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  box-sizing: border-box;
+  height: 600px;
+  line-height: 1;
+}
+.border-2 {
+  padding: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  box-sizing: border-box;
+  height: 600px;
+  line-height: 1;
+}
+.border-3 {
+  padding: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  box-sizing: border-box;
+  height: 600px;
+  line-height: 1;
+}
+#job-info .container1 {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  column-gap: 0px;
+  margin: 0 30px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+}
+.sothich {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  text-align: center;
+  gap: 10px;
+}
+.sothich i {
+  padding: 20px 20px;
+  font-size: 20px;
+  border: 1px solid rgb(111, 156, 199);
+  border-radius: 50%;
+}
+.border-4 {
+  padding: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  height: 350px;
+  line-height: 1;
+}
+.gachchanxanh {
+  background: #199cdb;
+  display: inline-block;
+  height: 4px;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 45px;
+}
+.gachchanxam {
+  background: #c5c8ca;
+  display: inline-block;
+  height: 4px;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 45px;
+}
+.border-5 {
+  padding: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  height: 350px;
+  line-height: 1;
+}
+.border-6 {
+  padding: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  height: 350px;
+  line-height: 1;
+}
+#chungchi {
+  background-color: #e4e2e2;
+  padding: 10px;
+}
+h6 {
+  font-size: 20px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 535px 535px;
+  column-gap: 0px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+}
+.dong1 {
+  display: grid;
+  grid-template-columns: 535px 535px;
+  column-gap: 0px;
+  margin: 0 30px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.dong1 > div:first-child {
+  border-right: 1px solid rgb(180, 179, 163);
+}
+.dong1 span {
+  font-size: 15px;
+}
+.divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider {
+  width: 1145px;
+  border-bottom: 2px solid rgb(190, 186, 179); /* Bạn có thể thay đổi màu sắc và độ dày của border */
+  position: center;
+}
+.dong2 {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 535px 535px;
+  margin: 0 30px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+}
+.dong2 span {
+  font-size: 15px;
+}
+.anhchungchi1 {
+  float: left;
+  width: 200px;
+}
+.anhchungchi2 {
+  float: left;
+  width: 200px;
+}
+.anhchungchi3 {
+  float: left;
+  width: 200px;
+}
+.span1 {
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.project-3 {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  column-gap: 0px;
+  margin: 0 30px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+}
+.nam2021 {
+  display: inline-block;
+  color: #ffffff; /* Màu chữ trắng */
+  background-color: #66c9e7; /* Màu nền xanh nước biển */
+  border: 2px solid #62cce7; /* Đường viền xanh nước biển */
+  border-radius: 40%; /* Bo tròn nền */
+  padding: 3px 6px; /* Khoảng cách giữa chữ và đường viền */
+}
+.project1 p {
+  border: 0.5px solid #cacaca;
+  margin: 0px;
+  padding: 10px;
+}
+.duan {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  justify-content: space-between;
+  justify-content: center; /* Căn giữa các cột theo chiều ngang */
+  align-items: center;
+  gap: 2cm;
+  align-items: center;
+}
+.lienhe {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  gap: 10px; /* Khoảng cách giữa các phần tử */
+  height: 10vh; /* Đảm bảo chiều cao của khung chứa là 100% chiều cao của cửa sổ trình duyệt */
+  background-color: #e7e5e5;
+  margin-top: 20px;
+}
+
+.lienhe i {
+  color: #199cdb;
+  font-size: 24px; /* Kích thước biểu tượng */
+}
+
+.lienhe span {
+  margin-left: 1px; /* Khoảng cách giữa biểu tượng và tên */
+}
